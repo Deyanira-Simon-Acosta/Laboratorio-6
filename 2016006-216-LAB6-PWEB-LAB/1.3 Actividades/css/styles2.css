@@ -1,0 +1,32 @@
+.navbar{
+    background-color: #e3f2fd;
+    padding: 10 23px;
+}
+a{
+    cursor: pointer;
+}
+h1{
+    font-family:'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+    text-align: center;
+}
+p{
+    text-align: justify;
+}
+img{
+    display: block;
+    margin: auto;
+}
+.containers{
+    display: flex; /* Utiliza flexbox para el contenedor */
+    flex-wrap: wrap; /* Permite que los elementos se ajusten */
+    justify-content: space-around; /* Espacio alrededor de los elementos */
+    margin: 20px; /* Espacio alrededor del contenedor */
+}
+.card.type{
+    width: 15rem; /* Ancho de cada tarjeta */
+    margin: 10px; /* Espacio entre tarjetas */
+    min-height: 100px; /* Altura mínima para mantener el tamaño */
+    display: flex; /* Utiliza flexbox para el contenido de la tarjeta */
+    flex-direction: column; /* Coloca elementos en columna */
+    background-color: #e3f2fd;
+}
